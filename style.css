@@ -1,0 +1,62 @@
+body {
+	background-color: #C4EFEF; 
+	font-family: courier;
+}
+#img-div {
+	text-align: center;
+}
+#image {
+	border-radius: 50%; 
+	border-color: #3CA6B1; 
+	border-style: solid; 
+	max-width:100%; 
+	height: auto; 
+	display: block; 
+	margin-right: auto;
+	 margin-left: auto;
+	}
+h1 {text-align: center; 
+	font-size: 50px;
+	 color: #EA8221;
+	}
+#img-caption {
+	font-style: italic;
+	padding-top: 10px;
+}
+#description {
+	text-align: center;
+	 font-size: 30px;
+	  font-weight: bold; 
+	  font-family: courier;
+	}
+#intro {
+	margin-left: 100px;
+	 margin-right: 100px; 
+	 padding-top: 30px; 
+	}
+#tribute-info {
+	padding: 35px 200px 50px 200p
+ 	line-height: 150%; 
+ 	font-family: courier;
+ } 
+h1 {text-align: center;
+ font-size: 50px;
+}
+#conclusion {margin: 35px 200px 150px 200px;
+	font-weight: bold;
+}
+#tribute-link {
+	color: #EA8221;
+}
+@media screen and (max-width: 900px) {
+	#tribute-info {
+		line-height: 150%;
+ 		padding: 35px 20px 50px 20px;
+ 		}
+ 	#intro {
+ 		margin-left: 20px;
+ 	}
+ 	#conclusion {margin: 35px 20px 150px 20px;
+	font-weight: bold;
+}
+ }
